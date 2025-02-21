@@ -19,15 +19,3 @@ if(hefte === 1) {
 )
 console.log(gun);
 
-// null == undefined → true, çünki JavaScript bu iki dəyəri xüsusi halda bərabər sayır.
-/*
-null == +"0" niyə false çıxır?
-
-+"0" → 0 olur (string "0" → number 0).
-İndi müqayisə budur: null == 0.
-JavaScript-in == qaydalarına görə:
-null yalnız undefined ilə bərabər sayılır.
-null heç vaxt 0-a çevrilmir!
-Buna görə null == 0 false çıxır.
-Qısaca: null avtomatik 0-a çevrilmədiyi üçün nəticə false olur. 
-*/
