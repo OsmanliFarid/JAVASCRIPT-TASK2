@@ -8,6 +8,6 @@ if (gender === "k" || gender === "K"){
     console.log(`Salam xanim ${name}`);
     
 }else{
-    console.log("lufen doru secin");
+    console.log("lufen doğru secin");
     
 }

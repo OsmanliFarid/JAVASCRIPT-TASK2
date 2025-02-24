@@ -2,7 +2,7 @@ const house_kvad = +prompt("nece kvadratliq ev isteyirsiz?")
 const house_money = +prompt("neceye alirsiz evi?")
 const currency = prompt("odeme hansi valyuta edeceksiz")
 
-if(house_kvad >= 2000 && house_money === 99999 && currency === "azn"){
+if(house_kvad >= 2000 && house_money === 99.999 && currency === "azn"){
     console.log("evi aliram")
     
 }else{

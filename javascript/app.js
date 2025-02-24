@@ -3,17 +3,17 @@ let gun = ""
 if(hefte === 1) {
     gun = "Bazar ertesi"
 }else if(hefte === 2) {
-    gun = "Cersenbe axsami"
+    gun = "Çerşenbe axşami"
 }else if(hefte === 3) {
-    gun = "Cersenbe"
+    gun = "Çersenbe"
 }else if(hefte === 4) {
-    gun = "Cume axsami"
+    gun = "Cüme axşami"
 }else if(hefte === 5) {
-    gun = "Cume"
+    gun = "Cüme"
 }else if(hefte === 6) {
-    gun = "senbe"
+    gun = "Şenbe"
 }else if(hefte === 7) {
-    gun = "bazar"
+    gun = "Bazar"
 }else(
     console.log("bele bir gun yoxdu")
 )
